@@ -1,0 +1,67 @@
+
+body {
+        background-image: url(Bilder/Hd-Background.svg);  
+        -webkit-background-size:cover;
+        background-size:cover;
+        background-position: center center;
+        height: 100vh;;
+    }
+.Nettmobbing{
+    display: grid;
+   grid-auto-flow:row;
+}
+@media screen and (max-width: 600px){
+    .Nettmobbing{
+        flex-direction: column;
+    }
+}
+.Nettmobbing ul{
+    list-style: none;
+    margin-top: 2%;
+    }
+.Nettmobbing ul li{
+    background: #262626;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    font-family: 'avenir', bold;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+.Nettmobbing ul li:hover{
+    background: crimson; 
+    }
+    
+.Nettmobbing ul ul{
+    display: none;
+    }
+.Nettmobbing ul li:hover > ul{
+    display: block;
+    }
+.Nettmobbing ul ul ul{
+    margin-left: 170px;
+    top: 0;
+    position: absolute;
+    }
+li a{
+        text-decoration: none;
+        color: #fff ;
+    }
+
+a:visited{
+        color: #fff;
+        background-color: #fff;   
+    }
+p{
+    color: #fff;
+}
+h2{
+    color: #fff;
+}
+
